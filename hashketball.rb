@@ -232,7 +232,7 @@ def most_points_scored
       best_player = game_hash[:home][:players][index]
       most_points = game_hash[:home][:players][index][:points]
     end
-    if most_points <= game_hash[:away][:players][index][:shoe]
+    if most_points <= game_hash[:away][:players][index][:points
       best_player = game_hash[:away][:players][index]
       most_points = game_hash[:away][:players][index][:points]
     end
