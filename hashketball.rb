@@ -273,5 +273,6 @@ end
 
 def long_name_steals_a_ton?
   game_hash[:home][:players].each_with_index{|players, index|
-  if player_with_longest_name
+    if player_with_longest_name
+  }
 end
