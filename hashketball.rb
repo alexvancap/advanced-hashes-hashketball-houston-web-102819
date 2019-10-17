@@ -256,7 +256,7 @@ end
 
 def player_with_longest_name
   game_hash[:home][:players].each_with_index{|players, index|
-    pp game_hash[:home][:players][index][:player_name].length.max
+    pp game_hash[:home][:players][index][:player_name].length
   }
 end
 
