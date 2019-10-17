@@ -220,8 +220,23 @@ def big_shoe_rebounds
   return biggest_player[:rebounds]
 end
 
-def most_points_scored
-  game_hash[:home][:players].each do |players, index|
 
+
+def most_points_scored
+  most_points = 0
+  biggest_player = {}
+
+  game_hash[:home][:players].each_with_index do |players, index|
+
+    if biggest_feet <= game_hash[:home][:players][index][:shoe].to_i
+      biggest_player = game_hash[:home][:players][index]
+      biggest_feet = game_hash[:home][:players][index][:shoe]
+    end
+    if biggest_feet <= game_hash[:away][:players][index][:shoe].to_i
+      biggest_feet = game_hash[:away][:players][index]
+      biggest_feet = game_hash[:away][:players][index][:shoe]
+    end
+  end
+  return biggest_player[:rebounds]
   end
 end
