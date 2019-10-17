@@ -217,7 +217,7 @@ def big_shoe_rebounds
       biggest_feet = game_hash[:away][:players][index][:shoe]
     end
   end
-  return biggest_player
+  return biggest_player[:rebounds]
 end
 
 pp big_shoe_rebounds
