@@ -184,6 +184,7 @@ def player_numbers (team_name)
     }
     return numbers
 end
+pp game_hash[:away][:players][index][:number]
 
 pp player_numbers ("Brooklyn Nets")
 
