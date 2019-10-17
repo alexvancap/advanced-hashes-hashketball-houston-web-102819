@@ -238,5 +238,4 @@ def most_points_scored
     end
   end
   return biggest_player[:rebounds]
-  end
 end
