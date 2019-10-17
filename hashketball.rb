@@ -241,6 +241,7 @@ def most_points_scored
 end
 
 def winning_team
+  total_points
   game_hash[:home][:players].each_with_index{|players, inex|
     game_hash[:home][:players][:points]
   }
