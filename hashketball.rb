@@ -237,5 +237,5 @@ def most_points_scored
       most_points = game_hash[:away][:players][index][:points]
     end
   end
-  return biggest_player[:rebounds]
+  return biggest_player[:player_name]
 end
