@@ -281,5 +281,6 @@ def long_name_steals_a_ton?
     end
     if max_steals < game_hash[:home][:players][index][:steals]
       max_steals = game_hash[:home][:players][index][:steals]
+    end
   }
 end
