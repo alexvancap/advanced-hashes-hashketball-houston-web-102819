@@ -276,7 +276,7 @@ def long_name_steals_a_ton?
   player_with_max_steals = ""
 
   game_hash[:home][:players].each_with_index{|players, index|
-    if max_steals < game_hash[:home][:players][index]
+    if max_steals < game_hash[:home][:players][index][:steals]
       max_steals = game_hash[:home][:players][index][]
   }
 end
