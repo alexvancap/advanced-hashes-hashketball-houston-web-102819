@@ -210,6 +210,7 @@ def big_shoe_rebounds
     elsif biggest_feet <= game_hash[:away][:players][index][:shoe]
       biggest_feet = game_hash[:away][:players][index]
     end
+  end
 end
 
 pp each_with_index
