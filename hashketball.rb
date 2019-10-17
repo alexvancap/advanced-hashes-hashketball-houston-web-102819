@@ -256,6 +256,7 @@ end
 
 def player_with_longest_name
   longest_name = "nil"
+  longest_name_person = "nil"
   game_hash[:home][:players].each_with_index{|players, index|
     if game_hash[:home][:players][index][:player_name].length
   }
