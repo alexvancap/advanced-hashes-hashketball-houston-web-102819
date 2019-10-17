@@ -213,3 +213,5 @@ def big_shoe_rebounds
 
   }
 end
+
+each_with_index
