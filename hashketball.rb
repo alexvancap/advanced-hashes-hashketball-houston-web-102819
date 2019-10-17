@@ -176,7 +176,7 @@ def player_numbers (team_name)
   numbers = []
     game_hash[:home][:players].each_with_index{|players, index|
       if team_name = game_hash[:home][:team_name]
-        numbers << game_hash[:home][:players][index][num]
+        numbers << game_hash[:home][:players][index][:number]
     }
 end
 
