@@ -228,7 +228,7 @@ def most_points_scored
 
   game_hash[:home][:players].each_with_index do |players, index|
 
-    if most_points <= game_hash[:home][:players][index][:shoe].to_i
+    if most_points <= game_hash[:home][:players][index][:points].to_i
       best_player = game_hash[:home][:players][index]
       most_points = game_hash[:home][:players][index][:shoe]
     end
