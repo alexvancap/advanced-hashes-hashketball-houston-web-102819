@@ -184,7 +184,6 @@ def player_numbers (team_name)
     }
     return numbers
 end
-pp game_hash[:home][:players][0][:number]
 
 
 
