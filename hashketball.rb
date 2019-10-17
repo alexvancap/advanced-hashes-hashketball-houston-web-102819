@@ -224,7 +224,7 @@ end
 
 def most_points_scored
   most_points = 0
-  biggest_player = {}
+  best_player = {}
 
   game_hash[:home][:players].each_with_index do |players, index|
 
