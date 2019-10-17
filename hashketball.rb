@@ -205,6 +205,8 @@ end
 def big_shoe_rebounds
   game_hash[:home][:players].each_with_index do |players, index|
     biggest_feet = 0
+
+    p biggest_feet <= game_hash[:home][:players][index][:shoe].to_i
     #if biggest_feet <= game_hash[:home][:players][index][:shoe].to_i
     #  biggest_feet = game_hash[:home][:players][index]
     #end
