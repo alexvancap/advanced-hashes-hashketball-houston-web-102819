@@ -65,7 +65,7 @@ def game_hash
       ]
     },
     away: {
-      team_name: "Charlotte Hornets",
+      team_name: "Brooklyn Nets",
       colors: ["Turquoise", "Purple"],
       players: [
         {
