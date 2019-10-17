@@ -285,5 +285,5 @@ def long_name_steals_a_ton?
       player_with_max_steals = game_hash[:home][:players][index]
     end
   }
-  if player_with_max_steals == 
+  if player_with_max_steals == player_with_longest_name
 end
