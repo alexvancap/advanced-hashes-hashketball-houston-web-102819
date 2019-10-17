@@ -272,18 +272,6 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton?
-  longest_name = 0
-  longest_name_person = ""
-
-  game_hash[:home][:players].each_with_index{|players, index|
-    if longest_name < game_hash[:home][:players][index][:player_name].length
-      longest_name = game_hash[:home][:players][index][:player_name].length
-      longest_name_person = game_hash[:home][:players][index][:player_name]
-    end
-    if longest_name < game_hash[:away][:players][index][:player_name].length
-      longest_name = game_hash[:away][:players][index][:player_name].length
-      longest_name_person = game_hash[:away][:players][index][:player_name]
-    end
-  }
-  return longest_name_person
+    game_hash[:home][:players].each_with_index{|players, index|
+  if player_with_longest_name
 end
