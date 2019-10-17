@@ -264,6 +264,7 @@ def player_with_longest_name
     elsif longest_name > game_hash[:away][:players][index][:player_name].length
       longest_name = game_hash[:away][:players][index][:player_name].length
       longest_name_person = game_hash[:home][:players][index]
+    end
   }
 end
 
