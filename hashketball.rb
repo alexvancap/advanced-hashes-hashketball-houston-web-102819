@@ -260,6 +260,7 @@ def player_with_longest_name
   game_hash[:home][:players].each_with_index{|players, index|
     if longest_name > game_hash[:home][:players][index][:player_name].length
       longest_name = game_hash[:home][:players][index][:player_name].length
+      longest_name_person
   }
 end
 
