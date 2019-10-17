@@ -267,7 +267,7 @@ def player_with_longest_name
       longest_name_person = game_hash[:home][:players][index][:player_name]
     end
   }
-  return longest_name_person[:]
+  return longest_name_person
 end
 
 player_with_longest_name
