@@ -243,7 +243,7 @@ end
 def winning_team
   home_points = 0
   away_points = 0
-  game_hash[:home][:players].each_with_index{|players, inex|
+  game_hash[:home][:players].each_with_index{|players, index|
     home_points += game_hash[:home][:players][index][:points]
     away_points += game_hash[:away][:players][index][:points]
   }
