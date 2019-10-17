@@ -259,3 +259,5 @@ def player_with_longest_name
     pp game_hash[:home][:players][index][:player_name].length
   }
 end
+
+player_with_longest_name
