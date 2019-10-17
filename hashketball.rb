@@ -203,8 +203,8 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-  game_hash[:home][:players].each do {|players, index|
+  game_hash[:home][:players].each_with_index do {|players, index|
     biggest_feet = 0
-    if game_hash
+    if game_hash’[:home][:players][]
   }
 end
