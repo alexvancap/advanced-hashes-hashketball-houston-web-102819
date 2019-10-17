@@ -186,8 +186,6 @@ def player_numbers (team_name)
 end
 
 
-pp game_hash[:home][:team_name]
-
 
 
 def player_stats (player_name)
