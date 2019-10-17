@@ -213,6 +213,7 @@ def big_shoe_rebounds
     end
     if biggest_feet <= game_hash[:away][:players][index][:shoe].to_i
       biggest_feet = game_hash[:away][:players][index]
+      biggest_feet = game_hash[:home][:players][index][:shoe]
     end
   end
 end
