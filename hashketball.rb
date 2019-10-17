@@ -4,7 +4,7 @@ require 'pry'
 def game_hash
   game_hash = {
     home: {
-      team_name: "Brooklyn Nets",
+      team_name: "Charlotte Hornets",
       colors: ["Black", "White"],
       players: [
         {
