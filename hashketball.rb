@@ -234,7 +234,7 @@ def most_points_scored
     end
     if most_points <= game_hash[:away][:players][index][:shoe]
       best_player = game_hash[:away][:players][index]
-      most_points = game_hash[:away][:players][index][:shoe]
+      most_points = game_hash[:away][:players][index][:points]
     end
   end
   return biggest_player[:rebounds]
