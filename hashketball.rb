@@ -190,7 +190,7 @@ end
 
 def player_stats (player_name)
   new_hash = {}
-  game_hash.each do |location,team_data|
+  game_hash.each do |location, team_data|
     game_hash[location][:players].each do |player|
       if player[:player_name] == player_name
         new_hash = {:number => player[:number], :shoe => player[:shoe], :points => player[:points], :rebounds =>
@@ -203,5 +203,5 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-  game_hash[:home][:players]
+  game_hash[:home][:players].each do {||}
 end
