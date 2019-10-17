@@ -255,6 +255,7 @@ def winning_team
 end
 
 def player_with_longest_name
+  longest_name = "nil"
   game_hash[:home][:players].each_with_index{|players, index|
     if game_hash[:home][:players][index][:player_name].length
   }
