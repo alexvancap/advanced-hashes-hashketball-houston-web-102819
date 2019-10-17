@@ -185,6 +185,8 @@ def player_numbers (team_name)
     return numbers
 end
 
+player_numbers ("Brooklyn Nets")
+
 
 
 
