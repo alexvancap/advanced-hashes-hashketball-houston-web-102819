@@ -282,7 +282,7 @@ def long_name_steals_a_ton?
     end
     if max_steals <= game_hash[:away][:players][index][:steals]
       max_steals = game_hash[:away][:players][index][:steals]
-      player_with_max_steals = game_hash[:home][:players][index]
+      player_with_max_steals = game_hash[:away][:players][index]
     end
   }
   if player_with_max_steals == player_with_longest_name
